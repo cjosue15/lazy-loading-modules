@@ -1,5 +1,9 @@
 <div class="home">
-  <app-breadcrum [title]="'Characters'" link="location"></app-breadcrum>
+  <app-breadcrum
+    [title]="'Characters'"
+    [titleButton]="'Locations'"
+    link="location"
+  ></app-breadcrum>
   <div class="home__grid">
     <div class="home__item" *ngFor="let character of characters">
       <picture
