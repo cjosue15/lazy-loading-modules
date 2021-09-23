@@ -7,6 +7,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class BreadcrumComponent implements OnInit {
   @Input() title: string = '';
+  @Input() titleButton: string = '';
   @Input() link: string = '';
   constructor() {}
 
